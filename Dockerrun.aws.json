@@ -12,12 +12,12 @@
       "host": {
         "sourcePath": "/var/app/current/proxy/conf.d"
       }
-    }  
+    }
   ],
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "php:fpm",
+      "image": "eandrewswhoi/whoi-php-fpm-wordpress:latest",
       "essential": true,
       "memory": 128,
       "mountPoints": [
